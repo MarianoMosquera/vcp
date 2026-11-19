@@ -1,0 +1,957 @@
+@prefix com: <https://marianomosquera.github.io/apuntes/carta-organica/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+com:abstencion a skos:Concept ;
+    skos:broader com:reduccion-riesgos ;
+    skos:inScheme com:esquema ;
+    skos:note "Gobierno Municipal"@es ;
+    skos:prefLabel "Abstención ante potencial conflicto de intereses"@es .
+
+com:acceso-informacion a skos:Concept ;
+    skos:broader com:transparencia ;
+    skos:inScheme com:esquema ;
+    skos:note "Derechos"@es ;
+    skos:prefLabel "Acceso a la información pública"@es .
+
+com:area-discapacidad a skos:Concept ;
+    skos:broader com:discapacidad ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Área de Discapacidad"@es ;
+    com:clasificacion "Institución"@es .
+
+com:auditor-gestion a skos:Concept ;
+    skos:broader com:eficacia-auditoria ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Auditor de Gestión"@es ;
+    com:clasificacion "Institución"@es .
+
+com:balance-energetico a skos:Concept ;
+    skos:broader com:subordinacion-urbana ;
+    skos:inScheme com:esquema ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Balance energético"@es .
+
+com:banca-ciudadano a skos:Concept ;
+    skos:broader com:engagement ;
+    skos:inScheme com:esquema ;
+    skos:notation "B" ;
+    skos:note "Participación ciudadana"@es ;
+    skos:prefLabel "Banca del ciudadano"@es .
+
+com:casa-juventud a skos:Concept ;
+    skos:broader com:juventud ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Casa de la Juventud"@es ;
+    com:clasificacion "Institución"@es .
+
+com:censos-sociales a skos:Concept ;
+    skos:broader com:municipio-satisfaccion ;
+    skos:inScheme com:esquema ;
+    skos:note "Políticas especiales"@es ;
+    skos:prefLabel "Censos sociales"@es .
+
+com:centros-vecinales a skos:Concept ;
+    skos:broader com:alcance-b ;
+    skos:inScheme com:esquema ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Predominio de centros vecinales"@es .
+
+com:competencia-compras a skos:Concept ;
+    skos:broader com:promocion-principios ;
+    skos:inScheme com:esquema ;
+    skos:note "Régimen económico financiero"@es ;
+    skos:prefLabel "Competencia en compras y contrataciones públicas"@es .
+
+com:concejo-denuncia a skos:Concept ;
+    skos:broader com:concejo-forma ;
+    skos:inScheme com:esquema ;
+    skos:notation "A" ;
+    skos:prefLabel "Por denuncia"@es .
+
+com:consejo-concursos a skos:Concept ;
+    skos:broader com:control-empleo ;
+    skos:inScheme com:esquema ;
+    skos:notation "B" ;
+    skos:prefLabel "Consejo de Concursos"@es .
+
+com:consejo-educativo a skos:Concept ;
+    skos:broader com:educacion ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Consejo Educativo"@es ;
+    com:clasificacion "Institución"@es .
+
+com:consejo-planificacion a skos:Concept ;
+    skos:broader com:desarrollo-urbano-ambiental ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Consejo de Planificación"@es ;
+    com:clasificacion "Institución"@es .
+
+com:consejo-politica a skos:Concept ;
+    skos:broader com:turismo ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Consejo de Política"@es ;
+    com:clasificacion "Institución"@es .
+
+com:consulta-no-vinculante a skos:Concept ;
+    skos:broader com:engagement ;
+    skos:inScheme com:esquema ;
+    skos:note "Participación ciudadana"@es ;
+    skos:prefLabel "Consulta no vinculante"@es .
+
+com:custodia-informacion a skos:Concept ;
+    skos:broader com:promocion-principios ;
+    skos:inScheme com:esquema ;
+    skos:note "Gobierno municipal"@es ;
+    skos:prefLabel "Custodia de información"@es .
+
+com:declaraciones-patrimoniales a skos:Concept ;
+    skos:broader com:reduccion-riesgos ;
+    skos:inScheme com:esquema ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Declaraciones patrimoniales"@es .
+
+com:defensor-denuncia a skos:Concept ;
+    skos:broader com:defensor-forma ;
+    skos:inScheme com:esquema ;
+    skos:notation "A" ;
+    skos:prefLabel "Por denuncia"@es .
+
+com:discrecionalidad a skos:Concept ;
+    skos:broader com:defensor-oficio ;
+    skos:editorialNote "Dada la condición de discrecionalidad en el ejercicio de las funciones de oficio del Defensor del Pueblo, se establece la prohibición de desarrollar actividad proselitista, con el propósito de preservar la independencia e imparcialidad de su actuación."@es ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Discrecionalidad"@es .
+
+com:eficacia-descentralizacion a skos:Concept ;
+    skos:broader com:descentralizacion ;
+    skos:inScheme com:esquema ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Eficacia"@es .
+
+com:eficacia-presupuesto a skos:Concept ;
+    skos:broader com:presupuesto ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Eficacia"@es .
+
+com:eficiencia-descentralizacion a skos:Concept ;
+    skos:broader com:descentralizacion ;
+    skos:inScheme com:esquema ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Eficiencia"@es .
+
+com:eficiencia-tribunal a skos:Concept ;
+    skos:broader com:tribunal-cuentas ;
+    skos:editorialNote "Control de legalidad centrado en eficiencia estándar, genera una alta objetividad en la responsabilidad del Tribunal de Cuentas."@es ;
+    skos:inScheme com:esquema ;
+    skos:note "Organismos de control"@es ;
+    skos:prefLabel "Eficiencia"@es .
+
+com:empresas-concesionarias a skos:Concept ;
+    skos:broader com:auditorias-especiales ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Empresas concesionarias"@es .
+
+com:escuela-administracion a skos:Concept ;
+    skos:broader com:idoneidad-merito ;
+    skos:inScheme com:esquema ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Escuela de Administración Pública"@es ;
+    com:clasificacion "Institución"@es .
+
+com:especulacion-inmobiliaria a skos:Concept ;
+    skos:broader com:distorsiones-mercado ;
+    skos:inScheme com:esquema ;
+    skos:note "Políticas especiales"@es ;
+    skos:prefLabel "Desincentivo a la especulación inmobiliaria"@es .
+
+com:foro a skos:Concept ;
+    skos:broader com:seguridad ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Foro"@es ;
+    com:clasificacion "Institución"@es .
+
+com:garantia-servicios a skos:Concept ;
+    skos:broader com:subordinacion-urbana ;
+    skos:inScheme com:esquema ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Garantía de servicios"@es .
+
+com:gastos-reservados a skos:Concept ;
+    skos:broader com:reduccion-riesgos ;
+    skos:inScheme com:esquema ;
+    skos:note "Régimen económico financiero"@es ;
+    skos:prefLabel "Imposibilidad de gastos reservados"@es .
+
+com:identidad a skos:Concept ;
+    skos:broader com:etica-politica ;
+    skos:inScheme com:esquema ;
+    skos:note "Preámbulo"@es ;
+    skos:prefLabel "Identidad"@es .
+
+com:incompatibilidades a skos:Concept ;
+    skos:broader com:reduccion-riesgos ;
+    skos:editorialNote "Constituyen un riesgo estándar de conflicto de intereses."@es ;
+    skos:inScheme com:esquema ;
+    skos:note "Gobierno municipal"@es ;
+    skos:prefLabel "Incompatibilidades"@es .
+
+com:indelegabilidad a skos:Concept ;
+    skos:broader com:reduccion-riesgos ;
+    skos:inScheme com:esquema ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Indelegabilidad"@es .
+
+com:indice-desarrollo-local a skos:Concept ;
+    skos:broader com:accountability ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Índice de desarrollo local"@es .
+
+com:informacion-economica a skos:Concept ;
+    skos:broader com:transparencia-justificativa ;
+    skos:inScheme com:esquema ;
+    skos:note "Régimen económico financiero"@es ;
+    skos:prefLabel "Predominio de información económica financiera"@es .
+
+com:inhabilidades a skos:Concept ;
+    skos:broader com:reduccion-riesgos ;
+    skos:editorialNote "La memoria de la sanción resulta relevante por su función preventiva."@es ;
+    skos:inScheme com:esquema ;
+    skos:note "Gobierno municipal"@es ;
+    skos:prefLabel "Inhabilidades"@es .
+
+com:iniciativa-diez a skos:Concept ;
+    skos:broader com:iniciativa-popular ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Requiere 10% del padrón"@es .
+
+com:maximo-deuda a skos:Concept ;
+    skos:broader com:reduccion-riesgos ;
+    skos:inScheme com:esquema ;
+    skos:note "Régimen económico financiero"@es ;
+    skos:prefLabel "Máximo de toma de deuda"@es ;
+    skos:scopeNote "Máximo permitido del 20% del presupuesto."@es .
+
+com:obras-interes a skos:Concept ;
+    skos:broader com:desarrollo-equilibrado ;
+    skos:definition "Obras específicas financiadas con tributos generales, sin relación entre tributos y beneficiarios."@es ;
+    skos:inScheme com:esquema ;
+    skos:note "Régimen económico financiero"@es ;
+    skos:prefLabel "Obras de interés municipal"@es .
+
+com:oficina-genero a skos:Concept ;
+    skos:broader com:genero ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Oficina de Género"@es ;
+    com:clasificacion "Institución"@es .
+
+com:organismo-promocion a skos:Concept ;
+    skos:broader com:turismo ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Organismo de Promoción"@es ;
+    com:clasificacion "Institución"@es .
+
+com:participacion-usuarios a skos:Concept ;
+    skos:broader com:ente-control ;
+    skos:inScheme com:esquema ;
+    skos:notation "A" ;
+    skos:prefLabel "Participación de usuarios"@es .
+
+com:plan-riesgo a skos:Concept ;
+    skos:broader com:engagement ;
+    skos:inScheme com:esquema ;
+    skos:notation "B" ;
+    skos:note "Políticas especiales"@es ;
+    skos:prefLabel "Plan de riesgo"@es .
+
+com:planificacion-estrategica a skos:Concept ;
+    skos:broader com:engagement ;
+    skos:inScheme com:esquema ;
+    skos:notation "A",
+        "B" ;
+    skos:note "Políticas especiales"@es ;
+    skos:prefLabel "Planificación estratégica"@es .
+
+com:pleno-gobierno a skos:Concept ;
+    skos:broader com:promocion-principios ;
+    skos:definition "Diálogo entre el Departamento Ejecutivo y el Concejo de Representantes."@es ;
+    skos:inScheme com:esquema ;
+    skos:note "Gobierno municipal"@es ;
+    skos:prefLabel "Pleno de gobierno"@es .
+
+com:proteccion-consumidores a skos:Concept ;
+    skos:broader com:distorsiones-mercado ;
+    skos:inScheme com:esquema ;
+    skos:note "Políticas especiales"@es ;
+    skos:prefLabel "Protección de consumidores y usuarios"@es .
+
+com:recomendaciones-maladministration a skos:Concept ;
+    skos:broader com:defensor-funcion ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Recomendaciones sobre maladministration"@es .
+
+com:referendo-cinco a skos:Concept ;
+    skos:broader com:referendo-vinculante ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Requiere 5% del padrón"@es .
+
+com:referendo-temas a skos:Concept ;
+    skos:broader com:referendo-vinculante ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Temas"@es .
+
+com:republica a skos:Concept ;
+    skos:broader com:etica-politica ;
+    skos:inScheme com:esquema ;
+    skos:note "Preámbulo"@es ;
+    skos:prefLabel "República"@es .
+
+com:responsabilidad-politica a skos:Concept ;
+    skos:broader com:eficacia-auditoria ;
+    skos:editorialNote "La responsabilidad política afecta la confianza ciudadana."@es ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Responsabilidad política"@es .
+
+com:revocatoria-cinco a skos:Concept ;
+    skos:broader com:revocatoria ;
+    skos:inScheme com:esquema ;
+    skos:notation "A" ;
+    skos:prefLabel "Requiere 5% del padrón"@es .
+
+com:sindicato a skos:Concept ;
+    skos:broader com:control-empleo ;
+    skos:inScheme com:esquema ;
+    skos:notation "B" ;
+    skos:prefLabel "Sindicato"@es .
+
+com:temas-audiencia a skos:Concept ;
+    skos:broader com:audiencia-publica ;
+    skos:inScheme com:esquema ;
+    skos:prefLabel "Temas"@es .
+
+com:transparencia-no-publicitaria a skos:Concept ;
+    skos:broader com:transparencia-activa ;
+    skos:inScheme com:esquema ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Transparencia no publicitaria"@es .
+
+com:transparencia-uso a skos:Concept ;
+    skos:broader com:transparencia-activa ;
+    skos:inScheme com:esquema ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Transparencia de uso"@es .
+
+com:zonificacion-regionalizacion a skos:Concept ;
+    skos:broader com:desarrollo-equilibrado ;
+    skos:inScheme com:esquema ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Zonificación y regionalización"@es .
+
+com:auditoria-gobierno a skos:Concept ;
+    skos:broader com:concejo-oficio ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:eficacia-auditoria ;
+    skos:prefLabel "Auditoría de gobierno"@es .
+
+com:auditorias-especiales a skos:Concept ;
+    skos:broader com:concejo-oficio ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:empresas-concesionarias ;
+    skos:prefLabel "Auditorías especiales"@es .
+
+com:ciencia-tecnologia-principios a skos:Concept ;
+    skos:broader com:estado-bienestar ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:innovacion-productiva ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Ciencia y tecnología"@es .
+
+com:concejo-representantes a skos:Concept ;
+    skos:broader com:division-poderes ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:concejo-forma ;
+    skos:note "Gobierno Municipal"@es ;
+    skos:prefLabel "Concejo de Representantes"@es .
+
+com:consejo-economico-social-laboral a skos:Concept ;
+    skos:broader com:desarrollo-economico-social-laboral ;
+    skos:inScheme com:esquema ;
+    skos:note "Participación ciudadana"@es ;
+    skos:prefLabel "Consejo Económico Social y Laboral"@es ;
+    skos:related com:estado-bienestar ;
+    com:clasificacion "Institución"@es .
+
+com:control-servicios a skos:Concept ;
+    skos:broader com:controles-especificos ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:ente-control ;
+    skos:prefLabel "Servicios públicos"@es .
+
+com:cooperativismo a skos:Concept ;
+    skos:broader com:empleo,
+        com:servicios-publicos-principios ;
+    skos:inScheme com:esquema ;
+    skos:note "Políticas especiales"@es ;
+    skos:prefLabel "Promoción del cooperativismo"@es .
+
+com:cultura a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:notation "A" ;
+    skos:prefLabel "Cultura"@es ;
+    skos:related com:alcance-a .
+
+com:defensor-funcion a skos:Concept ;
+    skos:broader com:defensor-pueblo ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:recomendaciones-maladministration ;
+    skos:prefLabel "Función"@es .
+
+com:defensor-oficio a skos:Concept ;
+    skos:broader com:defensor-forma ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:discrecionalidad ;
+    skos:prefLabel "De oficio"@es .
+
+com:empleo a skos:Concept ;
+    skos:broader com:estado-bienestar ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:cooperativismo ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Empleo"@es .
+
+com:ente-control a skos:Concept ;
+    skos:broader com:control-servicios ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:participacion-usuarios ;
+    skos:note "Organismos de control"@es ;
+    skos:prefLabel "Ente de Control"@es ;
+    com:clasificacion "Institución"@es .
+
+com:idoneidad-merito a skos:Concept ;
+    skos:broader com:promocion-principios ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:escuela-administracion ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Idoneidad y mérito en el empleo público"@es .
+
+com:iniciativa-popular a skos:Concept ;
+    skos:broader com:engagement ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:iniciativa-diez ;
+    skos:note "Participación ciudadana"@es ;
+    skos:prefLabel "Iniciativa popular"@es .
+
+com:innovacion-productiva a skos:Concept ;
+    skos:broader com:ciencia-tecnologia-principios,
+        com:productividad-economica ;
+    skos:inScheme com:esquema ;
+    skos:note "Políticas especiales"@es ;
+    skos:prefLabel "Desarrollo de la innovación productiva"@es .
+
+com:municipio-satisfaccion a skos:Concept ;
+    skos:broader com:derechos-humanos ;
+    skos:editorialNote "Constituye la única referencia significativa de la Carta Orgánica Municipal a la incorporación de criterios de racionalidad objetiva en la gestión pública. Este enfoque, desarrollado en otros contextos bajo el paradigma de las políticas públicas basadas en evidencia, encuentra en esta disposición su única expresión relevante dentro de la Carta Orgánica."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:censos-sociales ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Municipio como satisfacción de necesidades"@es .
+
+com:productividad-economica a skos:Concept ;
+    skos:broader com:estado-bienestar ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:innovacion-productiva ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Productividad económica"@es .
+
+com:revocatoria a skos:Concept ;
+    skos:broader com:accountability ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:revocatoria-cinco ;
+    skos:note "Participación ciudadana"@es ;
+    skos:prefLabel "Revocatoria"@es .
+
+com:salud a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:notation "C" ;
+    skos:prefLabel "Salud"@es ;
+    skos:related com:alcance-c .
+
+com:servicios-publicos-principios a skos:Concept ;
+    skos:broader com:estado-bienestar ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:cooperativismo ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Servicios públicos"@es .
+
+com:sustentabilidad a skos:Concept ;
+    skos:broader com:ciudad-turistica ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:subordinacion-urbana ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Sustentabilidad ambiental"@es .
+
+com:transparencia-justificativa a skos:Concept ;
+    skos:broader com:transparencia-activa ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:informacion-economica ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Transparencia justificativa"@es .
+
+com:tribunal-cuentas a skos:Concept ;
+    skos:broader com:division-poderes ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:eficiencia-tribunal ;
+    skos:prefLabel "Tribunal de Cuentas"@es .
+
+com:vivienda-tierras a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:notation "B" ;
+    skos:prefLabel "Vivienda y tierras"@es ;
+    skos:related com:alcance-b .
+
+com:audiencia-publica a skos:Concept ;
+    skos:broader com:accountability ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:temas-audiencia ;
+    skos:notation "A",
+        "B" ;
+    skos:note "Participación ciudadana"@es ;
+    skos:prefLabel "Audiencia pública"@es ;
+    skos:related com:engagement .
+
+com:ciencia-tecnologia-agenda a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:notation "A" ;
+    skos:prefLabel "Ciencia y tecnología"@es ;
+    skos:related com:alcance-a,
+        com:estado-bienestar .
+
+com:compliance a skos:Concept ;
+    skos:broader com:gobernanza ;
+    skos:definition """1. Conjunto de estrategias y mecanismos orientados a reducir los riesgos de incumplimiento de los principios y a promover la progresiva adecuación de las prácticas institucionales a los ideales que estos representan.
+
+2. Compromiso de responsabilidad individual e institucional sustentado en la capacidad de implementar las estrategias y mecanismos necesarios para cumplir los principios, reducir los riesgos de incumplimiento y adecuar las prácticas institucionales a los ideales que estos representan.
+
+3. Compromiso de orientar las estrategias y prácticas institucionales hacia el cumplimiento de los principios mediante criterios de eficiencia y eficacia, asegurando la calidad y la oportunidad en función de las circunstancias."""@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:promocion-principios,
+        com:reduccion-riesgos ;
+    skos:prefLabel "Compliance"@es .
+
+com:concejo-forma a skos:Concept ;
+    skos:broader com:concejo-representantes ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:concejo-denuncia,
+        com:concejo-oficio ;
+    skos:prefLabel "Forma"@es .
+
+com:concejo-oficio a skos:Concept ;
+    skos:broader com:concejo-forma ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:auditoria-gobierno,
+        com:auditorias-especiales ;
+    skos:prefLabel "De oficio"@es .
+
+com:control-empleo a skos:Concept ;
+    skos:broader com:controles-especificos ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:consejo-concursos,
+        com:sindicato ;
+    skos:note "Régimen económico financiero"@es ;
+    skos:prefLabel "Empleo público"@es .
+
+com:controles-especificos a skos:Concept ;
+    skos:broader com:accountability ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:control-empleo,
+        com:control-servicios ;
+    skos:prefLabel "Controles específicos"@es .
+
+com:defensor-forma a skos:Concept ;
+    skos:broader com:defensor-pueblo ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:defensor-denuncia,
+        com:defensor-oficio ;
+    skos:prefLabel "Forma"@es .
+
+com:defensor-pueblo a skos:Concept ;
+    skos:broader com:accountability ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:defensor-forma,
+        com:defensor-funcion ;
+    skos:note "Organismos de control"@es ;
+    skos:prefLabel "Defensor del Pueblo"@es .
+
+com:deporte a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:notation "B",
+        "C" ;
+    skos:prefLabel "Deporte"@es ;
+    skos:related com:alcance-b,
+        com:alcance-c .
+
+com:desarrollo-economico-social-laboral a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:editorialNote "El área temática Desarrollo económico, social y laboral no se encuentra expresamente identificada dentro de las políticas especiales de la Carta Orgánica. Su incorporación en la presente ontología responde a la necesidad de organizar jerárquicamente al Consejo Económico Social y Laboral, institución expresamente contemplada en dicha Carta."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:consejo-economico-social-laboral ;
+    skos:notation "B" ;
+    skos:prefLabel "Desarrollo económico, social y laboral"@es ;
+    skos:related com:alcance-b .
+
+com:desarrollo-equilibrado a skos:Concept ;
+    skos:broader com:derechos-humanos ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:obras-interes,
+        com:zonificacion-regionalizacion ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Desarrollo equilibrado de la ciudad"@es .
+
+com:descentralizacion a skos:Concept ;
+    skos:broader com:democracia ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:eficacia-descentralizacion,
+        com:eficiencia-descentralizacion ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Descentralización"@es .
+
+com:distorsiones-mercado a skos:Concept ;
+    skos:broader com:estado-bienestar ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:especulacion-inmobiliaria,
+        com:proteccion-consumidores ;
+    skos:note "Políticas especiales"@es ;
+    skos:prefLabel "Versus distorsiones del mercado"@es .
+
+com:division-poderes a skos:Concept ;
+    skos:broader com:accountability ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:concejo-representantes,
+        com:tribunal-cuentas ;
+    skos:prefLabel "División de poderes"@es .
+
+com:educacion a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:consejo-educativo ;
+    skos:notation "B" ;
+    skos:prefLabel "Educación"@es ;
+    skos:related com:alcance-b .
+
+com:eficacia-auditoria a skos:Concept ;
+    skos:broader com:auditoria-gobierno ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:auditor-gestion,
+        com:responsabilidad-politica ;
+    skos:prefLabel "Eficacia"@es .
+
+com:genero a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:oficina-genero ;
+    skos:notation "B" ;
+    skos:prefLabel "Género"@es ;
+    skos:related com:alcance-b .
+
+com:juventud a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:casa-juventud ;
+    skos:notation "A" ;
+    skos:prefLabel "Juventud"@es ;
+    skos:related com:alcance-a .
+
+com:presupuesto a skos:Concept ;
+    skos:broader com:accountability ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:eficacia-presupuesto ;
+    skos:notation "A" ;
+    skos:note "Régimen económico financiero"@es ;
+    skos:prefLabel "Presupuesto"@es ;
+    skos:related com:engagement .
+
+com:referendo-vinculante a skos:Concept ;
+    skos:broader com:engagement ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:referendo-cinco,
+        com:referendo-temas ;
+    skos:note "Participación ciudadana"@es ;
+    skos:prefLabel "Referendo vinculante"@es .
+
+com:subordinacion-urbana a skos:Concept ;
+    skos:broader com:sustentabilidad ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:balance-energetico,
+        com:garantia-servicios ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Subordinación urbana"@es .
+
+com:transparencia a skos:Concept ;
+    skos:broader com:democracia ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:acceso-informacion,
+        com:transparencia-activa ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Transparencia"@es .
+
+com:alcance a skos:Concept ;
+    skos:broader com:democracia ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:alcance-a,
+        com:alcance-b,
+        com:alcance-c ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Alcance"@es .
+
+com:alcance-c a skos:Concept ;
+    skos:broader com:alcance ;
+    skos:inScheme com:esquema ;
+    skos:notation "C" ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Colaboración pública-privada"@es ;
+    skos:related com:deporte,
+        com:salud,
+        com:turismo .
+
+com:carta a skos:Concept ;
+    skos:definition "Primera Carta Orgánica Municipal de la ciudad de Villa Carlos Paz, provincia de Córdoba, Argentina, sancionada el 27 de noviembre de 2007 por la Convención Constituyente Municipal, en ejercicio de la autonomía municipal, y vigente desde el 11 de enero de 2008."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:agenda,
+        com:gobernanza,
+        com:principios ;
+    skos:prefLabel "Carta Orgánica Municipal Villa Carlos Paz"@es ;
+    skos:topConceptOf com:esquema .
+
+com:ciudad-turistica a skos:Concept ;
+    skos:broader com:principios ;
+    skos:editorialNote "Desde una perspectiva técnico-conceptual, «Ciudad turística» constituye un componente de la agenda municipal antes que un principio propiamente dicho. Sin embargo, la Carta Orgánica Municipal lo identifica expresamente como principio. En el marco de la presente ontología, este concepto funciona como un puente con el principio de sustentabilidad."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:sustentabilidad ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Ciudad turística"@es ;
+    skos:related com:etica-politica,
+        com:turismo .
+
+com:derechos-humanos a skos:Concept ;
+    skos:broader com:etica-politica ;
+    skos:definition "Conjunto de derechos fundamentales vinculados con la libertad, la igualdad, la justicia (solidaridad) y la privacidad."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:desarrollo-equilibrado,
+        com:estado-bienestar,
+        com:municipio-satisfaccion ;
+    skos:note "Preámbulo (libertad, igualdad y justicia —solidaridad—). Departamento Ejecutivo (privacidad)."@es ;
+    skos:prefLabel "Derechos humanos"@es .
+
+com:desarrollo-urbano-ambiental a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:consejo-planificacion ;
+    skos:notation "A",
+        "B" ;
+    skos:prefLabel "Desarrollo urbano ambiental"@es ;
+    skos:related com:alcance-a,
+        com:alcance-b .
+
+com:discapacidad a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:area-discapacidad ;
+    skos:notation "A",
+        "B" ;
+    skos:prefLabel "Discapacidad"@es ;
+    skos:related com:alcance-a,
+        com:alcance-b .
+
+com:gobernanza a skos:Concept ;
+    skos:broader com:carta ;
+    skos:definition "Conjunto de relaciones y mecanismos de vinculación entre instituciones y actores que permiten organizar y articular el ejercicio del gobierno municipal."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:accountability,
+        com:compliance,
+        com:engagement ;
+    skos:prefLabel "Gobernanza"@es .
+
+com:principios a skos:Concept ;
+    skos:broader com:carta ;
+    skos:definition "Conjunto de ideales fundamentales que orientan el desarrollo de la comunidad local por intermedio de la organización institucional y el ejercicio del gobierno."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:ciudad-turistica,
+        com:democracia,
+        com:etica-politica ;
+    skos:prefLabel "Principios"@es .
+
+com:seguridad a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:foro ;
+    skos:notation "A",
+        "B" ;
+    skos:prefLabel "Seguridad"@es ;
+    skos:related com:alcance-a,
+        com:alcance-b .
+
+com:transparencia-activa a skos:Concept ;
+    skos:broader com:transparencia ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:transparencia-justificativa,
+        com:transparencia-no-publicitaria,
+        com:transparencia-uso ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Transparencia activa"@es .
+
+com:promocion-principios a skos:Concept ;
+    skos:broader com:compliance ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:competencia-compras,
+        com:custodia-informacion,
+        com:idoneidad-merito,
+        com:pleno-gobierno ;
+    skos:prefLabel "Promoción de principios"@es .
+
+com:turismo a skos:Concept ;
+    skos:broader com:agenda ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:consejo-politica,
+        com:organismo-promocion ;
+    skos:notation "C" ;
+    skos:prefLabel "Turismo"@es ;
+    skos:related com:alcance-c,
+        com:ciudad-turistica .
+
+com:democracia a skos:Concept ;
+    skos:altLabel "Gobierno de proximidad"@es ;
+    skos:broader com:principios ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:alcance,
+        com:descentralizacion,
+        com:transparencia ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Democracia participativa y deliberativa"@es ;
+    skos:related com:agenda,
+        com:etica-politica .
+
+com:etica-politica a skos:Concept ;
+    skos:broader com:principios ;
+    skos:editorialNote "Se refiere al criterio de considerar de manera equilibrada un conjunto de principios fundamentales."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:derechos-humanos,
+        com:identidad,
+        com:republica ;
+    skos:note "Preámbulo"@es ;
+    skos:prefLabel "Ética política"@es ;
+    skos:related com:ciudad-turistica,
+        com:democracia .
+
+com:alcance-a a skos:Concept ;
+    skos:broader com:alcance ;
+    skos:inScheme com:esquema ;
+    skos:notation "A" ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Ciudadanía o beneficiarios"@es ;
+    skos:related com:ciencia-tecnologia-agenda,
+        com:cultura,
+        com:desarrollo-urbano-ambiental,
+        com:discapacidad,
+        com:juventud,
+        com:seguridad .
+
+com:accountability a skos:Concept ;
+    skos:broader com:gobernanza ;
+    skos:definition "Conjunto de mecanismos de rendición de cuentas sustentados en procedimientos de control, evaluación y aplicación de sanciones, orientados a garantizar la responsabilidad en el ejercicio del gobierno municipal."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:audiencia-publica,
+        com:controles-especificos,
+        com:defensor-pueblo,
+        com:division-poderes,
+        com:indice-desarrollo-local,
+        com:presupuesto,
+        com:revocatoria ;
+    skos:prefLabel "Accountability"@es .
+
+com:estado-bienestar a skos:Concept ;
+    skos:broader com:derechos-humanos ;
+    skos:editorialNote "Concepto con una fuerte carga ideológica, cuya incorporación a la Carta Orgánica Municipal expresa una determinada orientación sobre la función del Estado en la organización económica y social, particularmente en relación con su responsabilidad en la promoción del bienestar colectivo y su intervención frente a las dinámicas del mercado."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:ciencia-tecnologia-principios,
+        com:distorsiones-mercado,
+        com:empleo,
+        com:productividad-economica,
+        com:servicios-publicos-principios ;
+    skos:note "Principios de gobierno"@es ;
+    skos:prefLabel "Estado de bienestar"@es ;
+    skos:related com:ciencia-tecnologia-agenda,
+        com:consejo-economico-social-laboral .
+
+com:reduccion-riesgos a skos:Concept ;
+    skos:broader com:compliance ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:abstencion,
+        com:declaraciones-patrimoniales,
+        com:gastos-reservados,
+        com:incompatibilidades,
+        com:indelegabilidad,
+        com:inhabilidades,
+        com:maximo-deuda ;
+    skos:prefLabel "Reducción de riesgos"@es .
+
+com:engagement a skos:Concept ;
+    skos:broader com:gobernanza ;
+    skos:definition "Conjunto de mecanismos de vinculación e interacción entre el gobierno municipal, la ciudadanía y sus diversas expresiones, sustentados en criterios de inclusión y pluralidad."@es ;
+    skos:editorialNote "El engagement presenta un carácter predominantemente propositivo, orientado a la generación de iniciativas, a diferencia de los mecanismos de accountability."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:banca-ciudadano,
+        com:consulta-no-vinculante,
+        com:iniciativa-popular,
+        com:plan-riesgo,
+        com:planificacion-estrategica,
+        com:referendo-vinculante ;
+    skos:prefLabel "Engagement"@es ;
+    skos:related com:audiencia-publica,
+        com:presupuesto .
+
+com:alcance-b a skos:Concept ;
+    skos:broader com:alcance ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:centros-vecinales ;
+    skos:notation "B" ;
+    skos:note "Declaración de principios"@es ;
+    skos:prefLabel "Instituciones"@es ;
+    skos:related com:deporte,
+        com:desarrollo-economico-social-laboral,
+        com:desarrollo-urbano-ambiental,
+        com:discapacidad,
+        com:educacion,
+        com:genero,
+        com:seguridad,
+        com:vivienda-tierras .
+
+com:agenda a skos:Concept ;
+    skos:broader com:carta ;
+    skos:definition "Conjunto de temas prioritarios definidos por su especial relevancia para el desarrollo de la comunidad local y su importancia en el marco de la Carta Orgánica Municipal, que se expresan generalmente mediante políticas especiales y pueden estar atravesados por el diseño de instituciones específicas."@es ;
+    skos:editorialNote "Las notaciones A, B y C asignadas a las áreas temáticas de Agenda remiten a las categorías de Alcance definidas en el principio de democracia participativa y deliberativa. Estas notaciones permiten identificar la vinculación de cada área temática con una o más categorías de Alcance de dicho principio. skos:notation identifica esas vinculaciones."@es ;
+    skos:inScheme com:esquema ;
+    skos:narrower com:ciencia-tecnologia-agenda,
+        com:cultura,
+        com:deporte,
+        com:desarrollo-economico-social-laboral,
+        com:desarrollo-urbano-ambiental,
+        com:discapacidad,
+        com:educacion,
+        com:genero,
+        com:juventud,
+        com:salud,
+        com:seguridad,
+        com:turismo,
+        com:vivienda-tierras ;
+    skos:note "Políticas especiales"@es ;
+    skos:prefLabel "Agenda"@es ;
+    skos:related com:democracia ;
+    skos:scopeNote "Este concepto comprende exclusivamente aquellas áreas temáticas de la Carta Orgánica que presentan algún tipo de vinculación con el principio de democracia participativa y deliberativa."@es .
+
+com:esquema a skos:ConceptScheme ;
+    skos:hasTopConcept com:carta ;
+    skos:prefLabel "Carta Orgánica Municipal Villa Carlos Paz — Esquema SKOS"@es .
