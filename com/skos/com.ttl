@@ -228,8 +228,7 @@ com:maximo-deuda a skos:Concept ;
     skos:broader com:reduccion-riesgos ;
     skos:inScheme com:esquema ;
     skos:note "Régimen económico financiero"@es ;
-    skos:prefLabel "Máximo de toma de deuda"@es ;
-    skos:scopeNote "Máximo permitido del 20% del presupuesto."@es .
+    skos:prefLabel "Máximo de toma de deuda"@es .
 
 com:obras-interes a skos:Concept ;
     skos:broader com:desarrollo-equilibrado ;
