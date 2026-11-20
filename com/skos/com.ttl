@@ -239,8 +239,7 @@ com:maximo-deuda a skos:Concept ;
     skos:broader com:reduccion-riesgos ;
     skos:inScheme com:esquema ;
     skos:note "Régimen económico financiero"@es ;
-    skos:prefLabel "Máximo de toma de deuda"@es ;
-    skos:scopeNote "Máximo permitido del 20% del presupuesto."@es .
+    skos:prefLabel "Máximo de toma de deuda"@es .
 
 com:obras-interes a skos:Concept ;
     skos:broader com:desarrollo-equilibrado ;
@@ -963,7 +962,7 @@ com:alcance-b a skos:Concept ;
 com:agenda a skos:Concept ;
     skos:broader com:carta ;
     skos:definition "Conjunto de temas prioritarios definidos por su especial relevancia para el desarrollo de la comunidad local y su importancia en el marco de la Carta Orgánica Municipal, que se expresan generalmente mediante políticas especiales y pueden estar atravesados por el diseño de instituciones específicas."@es ;
-    skos:editorialNote "Las notaciones A, B y C asignadas a las áreas temáticas de Agenda remiten a las categorías de Alcance definidas en el principio de democracia participativa y deliberativa. Estas notaciones permiten identificar la vinculación de cada área temática con una o más categorías de Alcance de dicho principio. skos:notation identifica esas vinculaciones."@es ;
+    skos:editorialNote "Este concepto comprende exclusivamente aquellas áreas temáticas de la Carta Orgánica que presentan algún tipo de vinculación con el principio de democracia participativa y deliberativa. Las notaciones A, B y C asignadas a las áreas temáticas de Agenda remiten a las categorías de Alcance definidas en el principio de democracia participativa y deliberativa. Estas notaciones permiten identificar la vinculación de cada área temática con una o más categorías de Alcance de dicho principio. skos:notation identifica esas vinculaciones."@es ;
     skos:inScheme com:esquema ;
     skos:narrower com:ciencia-tecnologia-agenda,
         com:cultura,
@@ -980,8 +979,7 @@ com:agenda a skos:Concept ;
         com:vivienda-tierras ;
     skos:note "Políticas especiales"@es ;
     skos:prefLabel "Agenda"@es ;
-    skos:related com:democracia ;
-    skos:scopeNote "Este concepto comprende exclusivamente aquellas áreas temáticas de la Carta Orgánica que presentan algún tipo de vinculación con el principio de democracia participativa y deliberativa."@es .
+    skos:related com:democracia .
 
 com:esquema a skos:ConceptScheme ;
     skos:hasTopConcept com:carta ;
