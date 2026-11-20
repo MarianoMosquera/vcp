@@ -762,7 +762,7 @@ com:derechos-humanos a skos:Concept ;
     skos:narrower com:desarrollo-equilibrado,
         com:estado-bienestar,
         com:municipio-satisfaccion ;
-    skos:note "Preámbulo (libertad, igualdad y justicia —solidaridad—). Departamento Ejecutivo (privacidad)."@es ;
+    skos:note "Preámbulo (libertad, igualdad y justicia —solidaridad—). Gobierno municipal (privacidad)."@es ;
     skos:prefLabel "Derechos humanos"@es .
 
 com:desarrollo-urbano-ambiental a skos:Concept ;
