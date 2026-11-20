@@ -17,12 +17,14 @@ com:area-discapacidad a skos:Concept ;
     skos:broader com:discapacidad ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Área de Discapacidad"@es ;
+    skos:note "Políticas Especiales"@es ;
     com:clasificacion "Institución"@es .
 
 com:auditor-gestion a skos:Concept ;
     skos:broader com:eficacia-auditoria ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Auditor de Gestión"@es ;
+    skos:note "Gobierno municipal"@es ;
     com:clasificacion "Institución"@es .
 
 com:balance-energetico a skos:Concept ;
@@ -42,6 +44,7 @@ com:casa-juventud a skos:Concept ;
     skos:broader com:juventud ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Casa de la Juventud"@es ;
+    skos:note "Políticas Especiales"@es ;
     com:clasificacion "Institución"@es .
 
 com:censos-sociales a skos:Concept ;
@@ -80,18 +83,21 @@ com:consejo-educativo a skos:Concept ;
     skos:broader com:educacion ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Consejo Educativo"@es ;
+    skos:note "Políticas Especiales"@es ;
     com:clasificacion "Institución"@es .
 
 com:consejo-planificacion a skos:Concept ;
     skos:broader com:desarrollo-urbano-ambiental ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Consejo de Planificación"@es ;
+    skos:note "Políticas Especiales"@es ;
     com:clasificacion "Institución"@es .
 
 com:consejo-politica a skos:Concept ;
     skos:broader com:turismo ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Consejo de Política"@es ;
+    skos:note "Políticas Especiales"@es ;
     com:clasificacion "Institución"@es .
 
 com:consulta-no-vinculante a skos:Concept ;
@@ -172,6 +178,7 @@ com:foro a skos:Concept ;
     skos:broader com:seguridad ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Foro"@es ;
+    skos:note "Políticas Especiales"@es ;
     com:clasificacion "Institución"@es .
 
 com:garantia-servicios a skos:Concept ;
@@ -246,18 +253,19 @@ com:oficina-genero a skos:Concept ;
     skos:broader com:genero ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Oficina de Género"@es ;
+    skos:note "Políticas Especiales"@es ;
     com:clasificacion "Institución"@es .
 
 com:organismo-promocion a skos:Concept ;
     skos:broader com:turismo ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Organismo de Promoción"@es ;
+    skos:note "Políticas Especiales"@es ;
     com:clasificacion "Institución"@es .
 
 com:participacion-usuarios a skos:Concept ;
     skos:broader com:ente-control ;
     skos:inScheme com:esquema ;
-    skos:notation "A" ;
     skos:note "Organismos de control"@es ;
     skos:prefLabel "Participación de usuarios"@es .
 
