@@ -326,7 +326,6 @@ com:responsabilidad-politica a skos:Concept ;
 com:revocatoria-cinco a skos:Concept ;
     skos:broader com:revocatoria ;
     skos:inScheme com:esquema ;
-    skos:notation "A" ;
     skos:note "Participación ciudadana"@es ;
     skos:prefLabel "Requiere 5% del padrón"@es .
 
@@ -749,7 +748,7 @@ com:carta a skos:Concept ;
     skos:narrower com:agenda,
         com:gobernanza,
         com:principios ;
-    skos:prefLabel "Carta Orgánica Municipal Villa Carlos Paz"@es ;
+    skos:prefLabel "Carta Orgánica Municipal"@es ;
     skos:topConceptOf com:esquema .
 
 com:ciudad-turistica a skos:Concept ;
@@ -983,5 +982,4 @@ com:agenda a skos:Concept ;
 
 com:esquema a skos:ConceptScheme ;
     skos:hasTopConcept com:carta ;
-    skos:prefLabel "Carta Orgánica Municipal Villa Carlos Paz — Esquema SKOS"@es .
-
+    skos:prefLabel "Carta Orgánica Municipal"@es .
