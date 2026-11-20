@@ -66,12 +66,14 @@ com:concejo-denuncia a skos:Concept ;
     skos:broader com:concejo-forma ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
+    skos:note "Gobierno municipal"@es ;
     skos:prefLabel "Por denuncia"@es .
 
 com:consejo-concursos a skos:Concept ;
     skos:broader com:control-empleo ;
     skos:inScheme com:esquema ;
     skos:notation "B" ;
+    skos:note "Régimen económico financiero"@es ;
     skos:prefLabel "Consejo de Concursos"@es .
 
 com:consejo-educativo a skos:Concept ;
@@ -95,6 +97,7 @@ com:consejo-politica a skos:Concept ;
 com:consulta-no-vinculante a skos:Concept ;
     skos:broader com:engagement ;
     skos:inScheme com:esquema ;
+    skos:notation "A" ;
     skos:note "Participación ciudadana"@es ;
     skos:prefLabel "Consulta no vinculante"@es .
 
@@ -114,6 +117,7 @@ com:defensor-denuncia a skos:Concept ;
     skos:broader com:defensor-forma ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
+    skos:note "Organismos de control"@es ;
     skos:prefLabel "Por denuncia"@es .
 
 com:discrecionalidad a skos:Concept ;
@@ -228,7 +232,8 @@ com:maximo-deuda a skos:Concept ;
     skos:broader com:reduccion-riesgos ;
     skos:inScheme com:esquema ;
     skos:note "Régimen económico financiero"@es ;
-    skos:prefLabel "Máximo de toma de deuda"@es .
+    skos:prefLabel "Máximo de toma de deuda"@es ;
+    skos:scopeNote "Máximo permitido del 20% del presupuesto."@es .
 
 com:obras-interes a skos:Concept ;
     skos:broader com:desarrollo-equilibrado ;
@@ -253,6 +258,7 @@ com:participacion-usuarios a skos:Concept ;
     skos:broader com:ente-control ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
+    skos:note "Organismos de control"@es ;
     skos:prefLabel "Participación de usuarios"@es .
 
 com:plan-riesgo a skos:Concept ;
@@ -314,12 +320,14 @@ com:revocatoria-cinco a skos:Concept ;
     skos:broader com:revocatoria ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
+    skos:note "Participación ciudadana"@es ;
     skos:prefLabel "Requiere 5% del padrón"@es .
 
 com:sindicato a skos:Concept ;
     skos:broader com:control-empleo ;
     skos:inScheme com:esquema ;
     skos:notation "B" ;
+    skos:note "Régimen económico financiero"@es ;
     skos:prefLabel "Sindicato"@es .
 
 com:temas-audiencia a skos:Concept ;
@@ -396,6 +404,7 @@ com:cultura a skos:Concept ;
     skos:broader com:agenda ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Cultura"@es ;
     skos:related com:alcance-a .
 
@@ -421,6 +430,7 @@ com:empleo a skos:Concept ;
 com:ente-control a skos:Concept ;
     skos:broader com:control-servicios ;
     skos:inScheme com:esquema ;
+    skos:notation "A" ;
     skos:narrower com:participacion-usuarios ;
     skos:note "Organismos de control"@es ;
     skos:prefLabel "Ente de Control"@es ;
@@ -436,6 +446,7 @@ com:idoneidad-merito a skos:Concept ;
 com:iniciativa-popular a skos:Concept ;
     skos:broader com:engagement ;
     skos:inScheme com:esquema ;
+    skos:notation "A" ;
     skos:narrower com:iniciativa-diez ;
     skos:note "Participación ciudadana"@es ;
     skos:prefLabel "Iniciativa popular"@es .
@@ -465,6 +476,7 @@ com:productividad-economica a skos:Concept ;
 com:revocatoria a skos:Concept ;
     skos:broader com:accountability ;
     skos:inScheme com:esquema ;
+    skos:notation "A" ;
     skos:narrower com:revocatoria-cinco ;
     skos:note "Participación ciudadana"@es ;
     skos:prefLabel "Revocatoria"@es .
@@ -473,6 +485,7 @@ com:salud a skos:Concept ;
     skos:broader com:agenda ;
     skos:inScheme com:esquema ;
     skos:notation "C" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Salud"@es ;
     skos:related com:alcance-c .
 
@@ -507,6 +520,7 @@ com:vivienda-tierras a skos:Concept ;
     skos:broader com:agenda ;
     skos:inScheme com:esquema ;
     skos:notation "B" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Vivienda y tierras"@es ;
     skos:related com:alcance-b .
 
@@ -524,6 +538,7 @@ com:ciencia-tecnologia-agenda a skos:Concept ;
     skos:broader com:agenda ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Ciencia y tecnología"@es ;
     skos:related com:alcance-a,
         com:estado-bienestar .
@@ -589,6 +604,7 @@ com:deporte a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "B",
         "C" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Deporte"@es ;
     skos:related com:alcance-b,
         com:alcance-c .
@@ -638,6 +654,7 @@ com:educacion a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:narrower com:consejo-educativo ;
     skos:notation "B" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Educación"@es ;
     skos:related com:alcance-b .
 
@@ -653,6 +670,7 @@ com:genero a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:narrower com:oficina-genero ;
     skos:notation "B" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Género"@es ;
     skos:related com:alcance-b .
 
@@ -661,6 +679,7 @@ com:juventud a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:narrower com:casa-juventud ;
     skos:notation "A" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Juventud"@es ;
     skos:related com:alcance-a .
 
@@ -676,6 +695,7 @@ com:presupuesto a skos:Concept ;
 com:referendo-vinculante a skos:Concept ;
     skos:broader com:engagement ;
     skos:inScheme com:esquema ;
+    skos:notation "A" ;
     skos:narrower com:referendo-cinco,
         com:referendo-temas ;
     skos:note "Participación ciudadana"@es ;
@@ -751,6 +771,7 @@ com:desarrollo-urbano-ambiental a skos:Concept ;
     skos:narrower com:consejo-planificacion ;
     skos:notation "A",
         "B" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Desarrollo urbano ambiental"@es ;
     skos:related com:alcance-a,
         com:alcance-b .
@@ -761,6 +782,7 @@ com:discapacidad a skos:Concept ;
     skos:narrower com:area-discapacidad ;
     skos:notation "A",
         "B" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Discapacidad"@es ;
     skos:related com:alcance-a,
         com:alcance-b .
@@ -789,6 +811,7 @@ com:seguridad a skos:Concept ;
     skos:narrower com:foro ;
     skos:notation "A",
         "B" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Seguridad"@es ;
     skos:related com:alcance-a,
         com:alcance-b .
@@ -817,6 +840,7 @@ com:turismo a skos:Concept ;
     skos:narrower com:consejo-politica,
         com:organismo-promocion ;
     skos:notation "C" ;
+    skos:note "Políticas Especiales"@es ;
     skos:prefLabel "Turismo"@es ;
     skos:related com:alcance-c,
         com:ciudad-turistica .
@@ -954,3 +978,4 @@ com:agenda a skos:Concept ;
 com:esquema a skos:ConceptScheme ;
     skos:hasTopConcept com:carta ;
     skos:prefLabel "Carta Orgánica Municipal Villa Carlos Paz — Esquema SKOS"@es .
+
