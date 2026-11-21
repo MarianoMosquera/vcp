@@ -17,7 +17,7 @@ com:area-discapacidad a skos:Concept ;
     skos:broader com:discapacidad ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Área de Discapacidad"@es ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     com:clasificacion "Institución"@es .
 
 com:auditor-gestion a skos:Concept ;
@@ -44,13 +44,14 @@ com:casa-juventud a skos:Concept ;
     skos:broader com:juventud ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Casa de la Juventud"@es ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     com:clasificacion "Institución"@es .
 
 com:censos-sociales a skos:Concept ;
     skos:broader com:municipio-satisfaccion ;
     skos:inScheme com:esquema ;
-    skos:note "Políticas especiales"@es ;
+    skos:notation "A" ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Censos sociales"@es .
 
 com:centros-vecinales a skos:Concept ;
@@ -83,21 +84,21 @@ com:consejo-educativo a skos:Concept ;
     skos:broader com:educacion ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Consejo Educativo"@es ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     com:clasificacion "Institución"@es .
 
 com:consejo-planificacion a skos:Concept ;
     skos:broader com:desarrollo-urbano-ambiental ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Consejo de Planificación"@es ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     com:clasificacion "Institución"@es .
 
 com:consejo-politica a skos:Concept ;
     skos:broader com:turismo ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Consejo de Política"@es ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     com:clasificacion "Institución"@es .
 
 com:consulta-no-vinculante a skos:Concept ;
@@ -141,6 +142,7 @@ com:eficacia-descentralizacion a skos:Concept ;
 com:eficacia-presupuesto a skos:Concept ;
     skos:broader com:presupuesto ;
     skos:inScheme com:esquema ;
+    skos:note "Régimen económico financiero"@es ;
     skos:prefLabel "Eficacia"@es .
 
 com:eficiencia-descentralizacion a skos:Concept ;
@@ -159,6 +161,7 @@ com:eficiencia-tribunal a skos:Concept ;
 com:empresas-concesionarias a skos:Concept ;
     skos:broader com:auditorias-especiales ;
     skos:inScheme com:esquema ;
+    skos:note "Gobierno Municipal"@es ;
     skos:prefLabel "Empresas concesionarias"@es .
 
 com:escuela-administracion a skos:Concept ;
@@ -171,14 +174,14 @@ com:escuela-administracion a skos:Concept ;
 com:especulacion-inmobiliaria a skos:Concept ;
     skos:broader com:distorsiones-mercado ;
     skos:inScheme com:esquema ;
-    skos:note "Políticas especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Desincentivo a la especulación inmobiliaria"@es .
 
 com:foro a skos:Concept ;
     skos:broader com:seguridad ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Foro"@es ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     com:clasificacion "Institución"@es .
 
 com:garantia-servicios a skos:Concept ;
@@ -215,6 +218,7 @@ com:indelegabilidad a skos:Concept ;
 com:indice-desarrollo-local a skos:Concept ;
     skos:broader com:accountability ;
     skos:inScheme com:esquema ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Índice de desarrollo local"@es .
 
 com:informacion-economica a skos:Concept ;
@@ -233,6 +237,7 @@ com:inhabilidades a skos:Concept ;
 com:iniciativa-diez a skos:Concept ;
     skos:broader com:iniciativa-popular ;
     skos:inScheme com:esquema ;
+    skos:note "Participación ciudadana"@es ;
     skos:prefLabel "Requiere 10% del padrón"@es .
 
 com:maximo-deuda a skos:Concept ;
@@ -252,14 +257,14 @@ com:oficina-genero a skos:Concept ;
     skos:broader com:genero ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Oficina de Género"@es ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     com:clasificacion "Institución"@es .
 
 com:organismo-promocion a skos:Concept ;
     skos:broader com:turismo ;
     skos:inScheme com:esquema ;
     skos:prefLabel "Organismo de Promoción"@es ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     com:clasificacion "Institución"@es .
 
 com:participacion-usuarios a skos:Concept ;
@@ -272,7 +277,7 @@ com:plan-riesgo a skos:Concept ;
     skos:broader com:engagement ;
     skos:inScheme com:esquema ;
     skos:notation "B" ;
-    skos:note "Políticas especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Plan de riesgo"@es .
 
 com:planificacion-estrategica a skos:Concept ;
@@ -280,7 +285,7 @@ com:planificacion-estrategica a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "A",
         "B" ;
-    skos:note "Políticas especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Planificación estratégica"@es .
 
 com:pleno-gobierno a skos:Concept ;
@@ -293,22 +298,25 @@ com:pleno-gobierno a skos:Concept ;
 com:proteccion-consumidores a skos:Concept ;
     skos:broader com:distorsiones-mercado ;
     skos:inScheme com:esquema ;
-    skos:note "Políticas especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Protección de consumidores y usuarios"@es .
 
 com:recomendaciones-maladministration a skos:Concept ;
     skos:broader com:defensor-funcion ;
     skos:inScheme com:esquema ;
+    skos:note "Organismos de control"@es ;
     skos:prefLabel "Recomendaciones sobre maladministration"@es .
 
 com:referendo-cinco a skos:Concept ;
     skos:broader com:referendo-vinculante ;
     skos:inScheme com:esquema ;
+    skos:note "Participación ciudadana"@es ;
     skos:prefLabel "Requiere 5% del padrón"@es .
 
 com:referendo-temas a skos:Concept ;
     skos:broader com:referendo-vinculante ;
     skos:inScheme com:esquema ;
+    skos:note "Participación ciudadana"@es ;
     skos:prefLabel "Temas"@es .
 
 com:republica a skos:Concept ;
@@ -321,6 +329,7 @@ com:responsabilidad-politica a skos:Concept ;
     skos:broader com:eficacia-auditoria ;
     skos:editorialNote "La responsabilidad política afecta la confianza ciudadana."@es ;
     skos:inScheme com:esquema ;
+    skos:note "Gobierno Municipal"@es ;
     skos:prefLabel "Responsabilidad política"@es .
 
 com:revocatoria-cinco a skos:Concept ;
@@ -339,6 +348,7 @@ com:sindicato a skos:Concept ;
 com:temas-audiencia a skos:Concept ;
     skos:broader com:audiencia-publica ;
     skos:inScheme com:esquema ;
+    skos:note "Participación ciudadana"@es ;
     skos:prefLabel "Temas"@es .
 
 com:transparencia-no-publicitaria a skos:Concept ;
@@ -363,12 +373,14 @@ com:auditoria-gobierno a skos:Concept ;
     skos:broader com:concejo-oficio ;
     skos:inScheme com:esquema ;
     skos:narrower com:eficacia-auditoria ;
+    skos:note "Gobierno Municipal"@es ;
     skos:prefLabel "Auditoría de gobierno"@es .
 
 com:auditorias-especiales a skos:Concept ;
     skos:broader com:concejo-oficio ;
     skos:inScheme com:esquema ;
     skos:narrower com:empresas-concesionarias ;
+    skos:note "Gobierno Municipal"@es ;
     skos:prefLabel "Auditorías especiales"@es .
 
 com:ciencia-tecnologia-principios a skos:Concept ;
@@ -396,21 +408,23 @@ com:consejo-economico-social-laboral a skos:Concept ;
 com:control-servicios a skos:Concept ;
     skos:broader com:controles-especificos ;
     skos:inScheme com:esquema ;
+    skos:notation "A" ;
     skos:narrower com:ente-control ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Servicios públicos"@es .
 
 com:cooperativismo a skos:Concept ;
     skos:broader com:empleo,
         com:servicios-publicos-principios ;
     skos:inScheme com:esquema ;
-    skos:note "Políticas especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Promoción del cooperativismo"@es .
 
 com:cultura a skos:Concept ;
     skos:broader com:agenda ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Cultura"@es ;
     skos:related com:alcance-a .
 
@@ -418,12 +432,14 @@ com:defensor-funcion a skos:Concept ;
     skos:broader com:defensor-pueblo ;
     skos:inScheme com:esquema ;
     skos:narrower com:recomendaciones-maladministration ;
+    skos:note "Organismos de control"@es ;
     skos:prefLabel "Función"@es .
 
 com:defensor-oficio a skos:Concept ;
     skos:broader com:defensor-forma ;
     skos:inScheme com:esquema ;
     skos:narrower com:discrecionalidad ;
+    skos:note "Organismos de control"@es ;
     skos:prefLabel "De oficio"@es .
 
 com:empleo a skos:Concept ;
@@ -436,7 +452,6 @@ com:empleo a skos:Concept ;
 com:ente-control a skos:Concept ;
     skos:broader com:control-servicios ;
     skos:inScheme com:esquema ;
-    skos:notation "A" ;
     skos:narrower com:participacion-usuarios ;
     skos:note "Organismos de control"@es ;
     skos:prefLabel "Ente de Control"@es ;
@@ -461,7 +476,7 @@ com:innovacion-productiva a skos:Concept ;
     skos:broader com:ciencia-tecnologia-principios,
         com:productividad-economica ;
     skos:inScheme com:esquema ;
-    skos:note "Políticas especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Desarrollo de la innovación productiva"@es .
 
 com:municipio-satisfaccion a skos:Concept ;
@@ -491,7 +506,7 @@ com:salud a skos:Concept ;
     skos:broader com:agenda ;
     skos:inScheme com:esquema ;
     skos:notation "C" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Salud"@es ;
     skos:related com:alcance-c .
 
@@ -520,13 +535,14 @@ com:tribunal-cuentas a skos:Concept ;
     skos:broader com:division-poderes ;
     skos:inScheme com:esquema ;
     skos:narrower com:eficiencia-tribunal ;
+    skos:note "Organismos de control"@es ;
     skos:prefLabel "Tribunal de Cuentas"@es .
 
 com:vivienda-tierras a skos:Concept ;
     skos:broader com:agenda ;
     skos:inScheme com:esquema ;
     skos:notation "B" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Vivienda y tierras"@es ;
     skos:related com:alcance-b .
 
@@ -544,7 +560,7 @@ com:ciencia-tecnologia-agenda a skos:Concept ;
     skos:broader com:agenda ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Ciencia y tecnología"@es ;
     skos:related com:alcance-a,
         com:estado-bienestar .
@@ -573,6 +589,7 @@ com:concejo-oficio a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:narrower com:auditoria-gobierno,
         com:auditorias-especiales ;
+    skos:note "Gobierno Municipal"@es ;
     skos:prefLabel "De oficio"@es .
 
 com:control-empleo a skos:Concept ;
@@ -610,7 +627,7 @@ com:deporte a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "B",
         "C" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Deporte"@es ;
     skos:related com:alcance-b,
         com:alcance-c .
@@ -645,7 +662,7 @@ com:distorsiones-mercado a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:narrower com:especulacion-inmobiliaria,
         com:proteccion-consumidores ;
-    skos:note "Políticas especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Versus distorsiones del mercado"@es .
 
 com:division-poderes a skos:Concept ;
@@ -660,7 +677,7 @@ com:educacion a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:narrower com:consejo-educativo ;
     skos:notation "B" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Educación"@es ;
     skos:related com:alcance-b .
 
@@ -669,6 +686,7 @@ com:eficacia-auditoria a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:narrower com:auditor-gestion,
         com:responsabilidad-politica ;
+    skos:note "Gobierno Municipal"@es ;
     skos:prefLabel "Eficacia"@es .
 
 com:genero a skos:Concept ;
@@ -676,7 +694,7 @@ com:genero a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:narrower com:oficina-genero ;
     skos:notation "B" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Género"@es ;
     skos:related com:alcance-b .
 
@@ -685,7 +703,7 @@ com:juventud a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:narrower com:casa-juventud ;
     skos:notation "A" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Juventud"@es ;
     skos:related com:alcance-a .
 
@@ -777,7 +795,7 @@ com:desarrollo-urbano-ambiental a skos:Concept ;
     skos:narrower com:consejo-planificacion ;
     skos:notation "A",
         "B" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Desarrollo urbano ambiental"@es ;
     skos:related com:alcance-a,
         com:alcance-b .
@@ -788,7 +806,7 @@ com:discapacidad a skos:Concept ;
     skos:narrower com:area-discapacidad ;
     skos:notation "A",
         "B" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Discapacidad"@es ;
     skos:related com:alcance-a,
         com:alcance-b .
@@ -817,7 +835,7 @@ com:seguridad a skos:Concept ;
     skos:narrower com:foro ;
     skos:notation "A",
         "B" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Seguridad"@es ;
     skos:related com:alcance-a,
         com:alcance-b .
@@ -846,7 +864,7 @@ com:turismo a skos:Concept ;
     skos:narrower com:consejo-politica,
         com:organismo-promocion ;
     skos:notation "C" ;
-    skos:note "Políticas Especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Turismo"@es ;
     skos:related com:alcance-c,
         com:ciudad-turistica .
@@ -976,10 +994,11 @@ com:agenda a skos:Concept ;
         com:seguridad,
         com:turismo,
         com:vivienda-tierras ;
-    skos:note "Políticas especiales"@es ;
+    skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Agenda"@es ;
     skos:related com:democracia .
 
 com:esquema a skos:ConceptScheme ;
     skos:hasTopConcept com:carta ;
     skos:prefLabel "Carta Orgánica Municipal"@es .
+
