@@ -38,6 +38,7 @@ com:banca-ciudadano a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "B" ;
     skos:note "Participación ciudadana"@es ;
+    skos:related com:alcance-b ;
     skos:prefLabel "Banca del ciudadano"@es .
 
 com:casa-juventud a skos:Concept ;
@@ -51,6 +52,7 @@ com:censos-sociales a skos:Concept ;
     skos:broader com:municipio-satisfaccion ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
+    skos:related com:alcance-a ;
     skos:note "Políticas especiales y para la ciudad"@es ;
     skos:prefLabel "Censos sociales"@es .
 
@@ -71,6 +73,7 @@ com:concejo-denuncia a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
     skos:note "Gobierno municipal"@es ;
+    skos:related com:alcance-a ;
     skos:prefLabel "Por denuncia"@es .
 
 com:consejo-concursos a skos:Concept ;
@@ -78,6 +81,7 @@ com:consejo-concursos a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "B" ;
     skos:note "Régimen económico financiero"@es ;
+    skos:related com:alcance-b ;
     skos:prefLabel "Consejo de Concursos"@es .
 
 com:consejo-educativo a skos:Concept ;
@@ -106,6 +110,7 @@ com:consulta-no-vinculante a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
     skos:note "Participación ciudadana"@es ;
+    skos:related com:alcance-a ;
     skos:prefLabel "Consulta no vinculante"@es .
 
 com:custodia-informacion a skos:Concept ;
@@ -125,6 +130,7 @@ com:defensor-denuncia a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "A" ;
     skos:note "Organismos de control"@es ;
+    skos:related com:alcance-a ;
     skos:prefLabel "Por denuncia"@es .
 
 com:discrecionalidad a skos:Concept ;
@@ -278,6 +284,7 @@ com:plan-riesgo a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "B" ;
     skos:note "Políticas especiales y para la ciudad"@es ;
+    skos:related com:alcance-b ;
     skos:prefLabel "Plan de riesgo"@es .
 
 com:planificacion-estrategica a skos:Concept ;
@@ -286,6 +293,8 @@ com:planificacion-estrategica a skos:Concept ;
     skos:notation "A",
         "B" ;
     skos:note "Políticas especiales y para la ciudad"@es ;
+    skos:related com:alcance-a,
+        com:alcance-b ;
     skos:prefLabel "Planificación estratégica"@es .
 
 com:pleno-gobierno a skos:Concept ;
@@ -343,6 +352,7 @@ com:sindicato a skos:Concept ;
     skos:inScheme com:esquema ;
     skos:notation "B" ;
     skos:note "Régimen económico financiero"@es ;
+    skos:related com:alcance-b ;
     skos:prefLabel "Sindicato"@es .
 
 com:temas-audiencia a skos:Concept ;
@@ -411,6 +421,7 @@ com:control-servicios a skos:Concept ;
     skos:notation "A" ;
     skos:narrower com:ente-control ;
     skos:note "Políticas especiales y para la ciudad"@es ;
+    skos:related com:alcance-a ;
     skos:prefLabel "Servicios públicos"@es .
 
 com:cooperativismo a skos:Concept ;
@@ -470,6 +481,7 @@ com:iniciativa-popular a skos:Concept ;
     skos:notation "A" ;
     skos:narrower com:iniciativa-diez ;
     skos:note "Participación ciudadana"@es ;
+    skos:related com:alcance-a ;
     skos:prefLabel "Iniciativa popular"@es .
 
 com:innovacion-productiva a skos:Concept ;
@@ -500,6 +512,7 @@ com:revocatoria a skos:Concept ;
     skos:notation "A" ;
     skos:narrower com:revocatoria-cinco ;
     skos:note "Participación ciudadana"@es ;
+    skos:related com:alcance-a ;
     skos:prefLabel "Revocatoria"@es .
 
 com:salud a skos:Concept ;
@@ -723,6 +736,7 @@ com:referendo-vinculante a skos:Concept ;
     skos:narrower com:referendo-cinco,
         com:referendo-temas ;
     skos:note "Participación ciudadana"@es ;
+    skos:related com:alcance-a ;
     skos:prefLabel "Referendo vinculante"@es .
 
 com:subordinacion-urbana a skos:Concept ;
